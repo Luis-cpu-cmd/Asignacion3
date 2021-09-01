@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+aside{
+    float: left;
+    margin-left: 1.5%;
+    width: 30%;
+    height: auto;
+    background-color: rgb(236, 214, 11);
+    border-color: black;
+    border-style: solid;
+}
+section{
+    float: right;
+    padding: 0;
+    margin-right: 1.5%;
+    width: 66%;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(7, 36, 99);
+}
+header{
+    background-color: rgb(171, 173, 25); 
+}
+body{
+    background-color: rgb(171, 173, 25); 
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 10px;
+}
+h2{
+    margin: 1.5%;
+    color: antiquewhite;
+}
+h4{
+    font-style: italic;
+}
+#divDatosTime h3{
+text-align: center;
+
+margin: 0.5%;
+}
+
+#divDatosTime div{
+    text-align: center;
+    color: aliceblue;
+    margin: 2.8%;
+    background-color: rgb(25, 25, 214);
+    border-radius: 10px;
+    }
+form{
+    padding: 4%;
+    text-align: center;
+}
+#divDatosTime{
+    background-color: rgb(236, 214, 11);
+    margin-bottom: 56px;
+}
+#fecha{
+    width: auto;
+    height: auto;
+    background-color: rgb(214, 185, 185); 
+}
+#Time{
+    width: auto;
+    height: auto;
+    background-color: rgb(214, 185, 185);
+}
+#divTable{
+    background-color: rgb(140, 148, 194);
+    height: 348px;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow-y: scroll;
+}
+#divTable div{
+    border-right: 0;
+    border-bottom: 0;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+#divMainTotal{
+    background-color: rgb(7, 36, 99);
+
+}
+#divCostoTotal div{ 
+background-color: rgb(7, 36, 99);
+width: 100px;
+height: auto;
+color: antiquewhite;
+margin-left: 20%;
+font-size: 25px;
+margin-bottom: 10px;
+margin-top: 5px;
+}
+#divElementsTotal div{
+    background-color: rgb(7, 36, 99);
+    width: 100px;
+    height: auto;
+    color: antiquewhite;
+margin-left: 20%;
+font-size: 25px;
+margin-top: 5px;
+}
+#divMainTotal h3{
+    color:antiquewhite ;
+    margin-left: 20px;
+}
+#Ingresar{
+    margin-left: 40%;
+    margin-top: 23px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family: cursive;
+}
+#Eliminar{
+    margin-left: 35%;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family: cursive;
+}
+#Editar{
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family: cursive;
+}
